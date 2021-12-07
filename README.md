@@ -39,6 +39,8 @@ Recomiendo su montaje en 3 FASES de hardware:
 3.- Inserción en maqueta
 ```
 
+Adiconalmente, hay unos programas de soporte que hacen el volcado (o borrado) de la memoria del ATmega sobre el puerto serie, para ver lo que se alacena allí.
+
 ### Este es el resultado
 
 Una miniatura que reproduce sonidos y música MP3 con el mando a distancia, y adicionalmente activa LEDs.
