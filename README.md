@@ -2,9 +2,9 @@
 Arduino MP3 player for Atmega168 and higher controlled by serial and/or IR controller
 
 _Este es un ejemplo para reproducir ficheros MP3/WAV guardados en una SD desde Arduino. Los ficheros se pueden lanzar desde el puerto serie o desde un mando de Infrarrojos (IR).
-El código se ha pensado para que corra desde un Atmega18 que tien muy poca memoria, por lo que se han eliminado muchas funciones superfluas_
+El código se ha pensado para que corra desde un Atmega168 que tiene muy poca memoria, por lo que se han eliminado muchas funciones superfluas_
 
-Inicialmente desarrollé este código para hacer que una nave ( Starfighter de Obi-wan ) de STAR WARS encendiera las luces a modo de lásers y emitiera sonidos, por lo que el circuito incorpora además LEDs.
+Inicialmente desarrollé este código para hacer que una nave ( Starfighter de Obi-wan ) de STAR WARS encendiera las luces a modo de láser y emitiera sonidos, por lo que el circuito incorpora además LEDs.
  
 ![Starfighter](https://github.com/OscarCalero/Automated_Starfighter/blob/main/Images/Portada2.png?raw=true)
 
@@ -16,10 +16,10 @@ Link de YouTube con montaje, programación y funcionamiento :  ---
 Necesitamos:
 
 ```
-Nave en miniatura o dispositivo sobre el que introducimos en sonifo MP3 y LEDs
+Nave en miniatura o dispositivo sobre el que introducimos en sonido MP3 y LEDs
 Reproductor MP3 DFPlayer-Mini (funciona por serial)
 Componentes electrónica (LEDs, Altavoz, IR receiver, switch)
-Una tarjeta SD, que en mi caso de de 4Gb
+Una tarjeta SD, que en mi caso de 4Gb
 Un procesador (en mi caso tipo mini con ATmega168)
 Mando a distancia
 ```
@@ -35,11 +35,11 @@ Recomiendo su montaje en 3 FASES de hardware:
 
 ```
 1.- Montaje de circuito electrónico
-2.- Proramación por puerto serie y con mando IR
+2.- Programación por puerto serie y con mando IR
 3.- Inserción en maqueta
 ```
 
-Adiconalmente, hay unos programas de soporte que hacen el volcado (o borrado) de la memoria del ATmega sobre el puerto serie, para ver lo que se alacena allí.
+Adicionalmente, hay unos programas de soporte que hacen el volcado (o borrado) de la memoria del ATmega sobre el puerto serie, para ver lo que se alacena allí.
 
 ### Este es el resultado
 
