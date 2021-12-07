@@ -1,4 +1,4 @@
-# Arduino_MP3_Player
+# Automated Obi-wan Starfihter
 Arduino MP3 player for Atmega168 and higher controlled by serial and/or IR controller
 
 _Este es un ejemplo para reproducir ficheros MP3/WAV guardados en una SD desde Arduino. Los ficheros se pueden lanzar desde el puerto serie o desde un mando de Infrarrojos (IR).
