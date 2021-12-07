@@ -7,7 +7,7 @@ El código se ha pensado para que corra desde un Atmega18 que tien muy poca memo
 Inicialmente desarrollé este código para hacer que una nave ( Starfighter de Obi-wan ) de STAR WARS encendiera las luces a modo de lásers y emitiera sonidos, por lo que el circuito incorpora además LEDs.
  
 
-![Starfighter](https://github.com/OscarCalero/Arduino_MP3_Player/blob/main/OscarCalero/Arduino_MP3_Player/Portana2.png?raw=true)
+![Starfighter](https://github.com/OscarCalero/Arduino_MP3_Player/blob/main/Portana2.png?raw=true)
 
 
 ## Instrucciones...
