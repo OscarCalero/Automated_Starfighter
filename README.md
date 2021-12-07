@@ -6,43 +6,45 @@ El código se ha pensado para que corra desde un Atmega18 que tien muy poca memo
 
 Inicialmente desarrollé este código para hacer que una nave ( Starfighter de Obi-wan ) de STAR WARS encendiera las luces a modo de lásers y emitiera sonidos, por lo que el circuito incorpora además LEDs.
  
-
-![Starfighter](https://github.com/OscarCalero/Arduino_MP3_Player/blob/main/Images/Portada2.png?raw=true)
+![Starfighter](https://github.com/OscarCalero/Automated_Starfighter/blob/main/Images/Portada2.png?raw=true)
 
 
 ## Instrucciones...
 
-Link de YouTube con montaje, programación y funcionamiento :  https://www.youtube.com/watch?v=ZIpGoSoBYxE
+Link de YouTube con montaje, programación y funcionamiento :  ---
 
 Necesitamos:
 
 ```
-TFT ILI9486 o similar
-Controlador (librería) de TFT_eSPI de Bodmer
-Una tarjeta SD, que en mi caso de de 8Gb
-Un procesador ESP32, aunque otros pueden funcionar igualmente
+Nave en miniatura o dispositivo sobre el que introducimos en sonifo MP3 y LEDs
+Reproductor MP3 DFPlayer-Mini (funciona por serial)
+Componentes electrónica (LEDs, Altavoz, IR receiver, switch)
+Una tarjeta SD, que en mi caso de de 4Gb
+Un procesador (en mi caso tipo mini con ATmega168)
+Mando a distancia
 ```
-[libreria TFT_eSPI Bodmer](https://github.com/Bodmer/TFT_eSPI)
+Este es el esquema electrónico que hay en el interior:
+
+![Starfighter](https://github.com/OscarCalero/Automated_Starfighter/blob/main/Images/Circuit.png?raw=true)
+
+Este es el esquema de archivos que se almacenan en la SD (tipo MP3 o WAV):
+
+![Starfighter](https://github.com/OscarCalero/Automated_Starfighter/blob/main/Images/FilesOnSD.PNG?raw=true)
 
 Recomiendo su montaje en 3 FASES de hardware:
 
 ```
-1.- conectar TFT
-2.- Conectar pantalla táctil (touch) y calibrar grabando en SPIFFS
-3.- Conectar la SD con imágenes JPG y su uso como HMI
+1.- Montaje de circuito electrónico
+2.- Proramación por puerto serie y con mando IR
+3.- Inserción en maqueta
 ```
-![ILI9486_Montaje](https://github.com/OscarCalero/TFT_ILI9486/blob/main/Montaje.jpg?raw=true)
-![ILI9486_Circuit](https://github.com/OscarCalero/TFT_ILI9486/blob/main/Circuit/ILI9486_L.jpg?raw=true)
 
+### Este es el resultado
 
-### Contenidos que podreis ver
+Una miniatura que reproduce sonidos y música MP3 con el mando a distancia, y adicionalmente activa LEDs.
 
-```
-1.- Conexión de TFT
-2.- Varios dispositivos SPI simultaneamente
-3.- Uso de SPIFFS (memoria flash del ESP32)
-4.- Uso de SD en ESP32
-```
+![Starfighter](https://github.com/OscarCalero/Automated_Starfighter/blob/main/Images/IR_controller.png?raw=true)
+
 
 ### Disfruta...
 
