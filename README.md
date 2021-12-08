@@ -11,7 +11,7 @@ Inicialmente desarrollé este código para hacer que una nave ( Starfighter de O
 
 ## Instrucciones...
 
-Link de YouTube con montaje, programación y funcionamiento :  ---
+Link de YouTube con montaje, programación y funcionamiento :  https://www.youtube.com/watch?v=-qDt7vhpLNA&t=25s
 
 Necesitamos:
 
